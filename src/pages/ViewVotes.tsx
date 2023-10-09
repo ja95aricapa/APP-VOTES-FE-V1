@@ -23,6 +23,8 @@ const ViewVotes: React.FC = () => {
           <li key={index}>{vote.value}</li>
         ))}
       </ul>
+      <button onClick={() => window.history.back()}>Regresar al Home</button>{" "}
+      {/* Nuevo botón */}
     </div>
   );
 };
