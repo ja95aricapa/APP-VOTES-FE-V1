@@ -1,5 +1,3 @@
-// src/pages/ViewVotes.tsx
-
 import React, { useState } from "react";
 import { fetchVotes } from "../api";
 
@@ -24,7 +22,6 @@ const ViewVotes: React.FC = () => {
         ))}
       </ul>
       <button onClick={() => window.history.back()}>Regresar al Home</button>{" "}
-      {/* Nuevo botón */}
     </div>
   );
 };
